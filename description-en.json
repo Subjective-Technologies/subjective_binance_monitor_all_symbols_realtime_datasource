@@ -1,4 +1,5 @@
 {
+  "description": "Starts realtime monitoring for all symbols and forwards market stream updates into BrainBoost subscribers.",
   "domainCategory": "Trading",
   "subjectiveTechnologyElement": "DataSources",
   "publisher": "BrainBoost Ltd.",
@@ -9,7 +10,7 @@
     {
       "type": "splitList",
       "title": "Monitor All Symbols Realtime",
-      "text": "Subjective datasource implementation for SubjectiveMonitorAllSymbolsRealtimeDataSource.",
+      "text": "Starts realtime monitoring for all symbols and forwards market stream updates into BrainBoost subscribers.",
       "image": {
         "src": "/subjective_binance_monitor_all_symbols_realtime_datasource/icon.svg",
         "alt": "Monitor All Symbols Realtime icon"
