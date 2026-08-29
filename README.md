@@ -1,17 +1,3 @@
-# SubjectiveMonitorAllSymbolsRealtimeDataSource
+# subjective_binance_monitor_all_symbols_realtime_datasource
 
-Subjective datasource implementation for SubjectiveMonitorAllSymbolsRealtimeDataSource.
-
-## Usage
-
-```python
-from subjective_datasources.SubjectiveMonitorAllSymbolsRealtimeDataSource import SubjectiveMonitorAllSymbolsRealtimeDataSource
-
-source = SubjectiveMonitorAllSymbolsRealtimeDataSource(params={})
-source.fetch()
-```
-
-## Parameters
-
-Use the params dictionary when constructing the datasource to provide connection and runtime values.
-Refer to get_connection_data() for required fields.
+Subjective v2 datasource for Binance-only trading pipelines. See repository README for configuration and safety constraints.
